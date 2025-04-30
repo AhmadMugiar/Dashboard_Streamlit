@@ -1,5 +1,5 @@
 import streamlit as st
-from data import *
+from data import load_data, filter_data, show_data, select_year, select_location, kolom, pie_chart, bar_chart1, bar_chart2, map_chart
 
 def judul():
     st.title("Dashboard COVID-19")
